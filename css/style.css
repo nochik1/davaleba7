@@ -1,0 +1,33 @@
+.s1{
+	background-image: url("../images/saske.jpg");
+	height: 2000px;
+	background-color: gray;
+	background-repeat: no-repear;
+	background-size: cover;
+	background-position: center;
+}
+.container{
+	width: 1170px;
+	height: 700px;
+	margin: 0 auto;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.img1{
+	width: 250px;
+	height: 300px;
+	object-fit: cover;
+}
+.img2{
+	width: 250px;
+	height: 300px;
+	object-fit: fill;
+}
+.img3{
+	width: 250px;
+	height: 300px;
+	object-fit: contain;
+}
